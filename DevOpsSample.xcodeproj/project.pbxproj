@@ -412,6 +412,7 @@
 				7344D1131A3045870029EEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7344D1141A3045870029EEF2 /* Build configuration list for PBXNativeTarget "DevOpsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				7344D1161A3045870029EEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
