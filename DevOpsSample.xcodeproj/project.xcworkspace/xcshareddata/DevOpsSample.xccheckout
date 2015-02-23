@@ -10,43 +10,29 @@
 	<string>DevOpsSample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>297241FC50E1E06DC9969CA1443E0C51C523FBA2</key>
-		<string>https://github.com/iamnisheeth/DevOpsSample.git</string>
-		<key>349F70A53DE304492A6F21D14E63D3F9FDB7856D</key>
+		<key>0c3333ab-9890-b4eb-d0ae-ce57b7db7bff</key>
 		<string>https://github.com/iamnisheeth/DevOpsSample</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DevOpsSample.xcodeproj</string>
+	<string>trunk/DevOpsSample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>297241FC50E1E06DC9969CA1443E0C51C523FBA2</key>
-		<string>../../../DevOpsSample</string>
-		<key>349F70A53DE304492A6F21D14E63D3F9FDB7856D</key>
-		<string>../..</string>
+		<key>0c3333ab-9890-b4eb-d0ae-ce57b7db7bff</key>
+		<string>../../..</string>
 	</dict>
-	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/iamnisheeth/DevOpsSample</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>349F70A53DE304492A6F21D14E63D3F9FDB7856D</string>
+	<string>0c3333ab-9890-b4eb-d0ae-ce57b7db7bff</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>297241FC50E1E06DC9969CA1443E0C51C523FBA2</string>
+			<string>0c3333ab-9890-b4eb-d0ae-ce57b7db7bff</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DevOpsSample</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>349F70A53DE304492A6F21D14E63D3F9FDB7856D</string>
-			<key>IDESourceControlWCCName</key>
-			<string>DevOpsSample1</string>
 		</dict>
 	</array>
 </dict>
