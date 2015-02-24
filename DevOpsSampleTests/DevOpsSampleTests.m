@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+//#import <SenTestingKit/SenTestingKit.h>
 
 @interface DevOpsSampleTests : XCTestCase
 
@@ -27,14 +28,14 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    XCTAssertTrue(YES, @"Pass");
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
+//- (void)testPerformanceExample {
+//    // This is an example of a performance test case.
+//    [self measureBlock:^{
+//        // Put the code you want to measure the time of here.
+//    }];
+//}
 
 @end
