@@ -68,17 +68,19 @@
     XCTAssert([vcCurrent isKindOfClass:[DOHomeViewController class]], @"should have logged in");
 }
 
-- (void)testLoginWithUserKiran
-{
-    [vcLogin.txtUserName setText:@"kiran"];
-    [vcLogin.txtPassword setText:@"password"];
-    
-    [vcLogin btnLogin:Nil];
-    
-    UIViewController *vcCurrent = ((UINavigationController*)app.keyWindow.rootViewController).topViewController;
-    
-    //    STAssert([vcCurrent isKindOfClass:[DOViewController class]], @"should have logged in");
-    XCTAssert([vcCurrent isKindOfClass:[DOHomeViewController class]], @"should have logged in");
-}
+//- (void)testLoginWithUserKiran
+//{
+//    [vcLogin.txtUserName setText:@"kiran"];
+//    [vcLogin.txtPassword setText:@"password"];
+//    
+//    [vcLogin btnLogin:Nil];
+//    
+//    UIViewController *vcCurrent = ((UINavigationController*)app.keyWindow.rootViewController).topViewController;
+//    
+//    //    STAssert([vcCurrent isKindOfClass:[DOViewController class]], @"should have logged in");
+//    XCTAssert([vcCurrent isKindOfClass:[DOHomeViewController class]], @"should have logged in");
+//    
+//    // Testing Git commit :(
+//}
 
 @end
