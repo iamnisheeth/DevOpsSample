@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2689631A9DEC9E00C02FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C26895E1A9DEC9E00C02FC4 /* Main.storyboard */; };
+		0C2689641A9DEC9E00C02FC4 /* DOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2689601A9DEC9E00C02FC4 /* DOViewController.m */; };
+		0C2689651A9DEC9E00C02FC4 /* DOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2689621A9DEC9E00C02FC4 /* DOHomeViewController.m */; };
+		0C2689671A9DECB500C02FC4 /* DevopsFinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2689661A9DECB500C02FC4 /* DevopsFinalProjectTests.m */; };
 		7344D0F41A3045870029EEF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344D0F31A3045870029EEF2 /* main.m */; };
 		7344D0F71A3045870029EEF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344D0F61A3045870029EEF2 /* AppDelegate.m */; };
-		7344D0FA1A3045870029EEF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344D0F91A3045870029EEF2 /* ViewController.m */; };
-		7344D0FD1A3045870029EEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7344D0FB1A3045870029EEF2 /* Main.storyboard */; };
 		7344D0FF1A3045870029EEF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7344D0FE1A3045870029EEF2 /* Images.xcassets */; };
 		7344D1021A3045870029EEF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7344D1001A3045870029EEF2 /* LaunchScreen.xib */; };
-		7344D10E1A3045870029EEF2 /* DevOpsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344D10D1A3045870029EEF2 /* DevOpsSampleTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,20 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C26895E1A9DEC9E00C02FC4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C26895F1A9DEC9E00C02FC4 /* DOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOViewController.h; sourceTree = "<group>"; };
+		0C2689601A9DEC9E00C02FC4 /* DOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOViewController.m; sourceTree = "<group>"; };
+		0C2689611A9DEC9E00C02FC4 /* DOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOHomeViewController.h; sourceTree = "<group>"; };
+		0C2689621A9DEC9E00C02FC4 /* DOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOHomeViewController.m; sourceTree = "<group>"; };
+		0C2689661A9DECB500C02FC4 /* DevopsFinalProjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevopsFinalProjectTests.m; sourceTree = "<group>"; };
 		0CFC6D2F1A9C5F43006D4BFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7344D0EE1A3045870029EEF2 /* DevOpsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevOpsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7344D0F21A3045870029EEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7344D0F31A3045870029EEF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7344D0F51A3045870029EEF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7344D0F61A3045870029EEF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7344D0F81A3045870029EEF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7344D0F91A3045870029EEF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7344D0FC1A3045870029EEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7344D0FE1A3045870029EEF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7344D1011A3045870029EEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7344D1071A3045870029EEF2 /* DevOpsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevOpsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7344D10C1A3045870029EEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7344D10D1A3045870029EEF2 /* DevOpsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevOpsSampleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +88,11 @@
 			children = (
 				7344D0F51A3045870029EEF2 /* AppDelegate.h */,
 				7344D0F61A3045870029EEF2 /* AppDelegate.m */,
-				7344D0F81A3045870029EEF2 /* ViewController.h */,
-				7344D0F91A3045870029EEF2 /* ViewController.m */,
-				7344D0FB1A3045870029EEF2 /* Main.storyboard */,
+				0C26895E1A9DEC9E00C02FC4 /* Main.storyboard */,
+				0C26895F1A9DEC9E00C02FC4 /* DOViewController.h */,
+				0C2689601A9DEC9E00C02FC4 /* DOViewController.m */,
+				0C2689611A9DEC9E00C02FC4 /* DOHomeViewController.h */,
+				0C2689621A9DEC9E00C02FC4 /* DOHomeViewController.m */,
 				7344D0FE1A3045870029EEF2 /* Images.xcassets */,
 				7344D1001A3045870029EEF2 /* LaunchScreen.xib */,
 				7344D0F11A3045870029EEF2 /* Supporting Files */,
@@ -107,7 +112,7 @@
 		7344D10A1A3045870029EEF2 /* DevOpsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				7344D10D1A3045870029EEF2 /* DevOpsSampleTests.m */,
+				0C2689661A9DECB500C02FC4 /* DevopsFinalProjectTests.m */,
 				7344D10B1A3045870029EEF2 /* Supporting Files */,
 			);
 			path = DevOpsSampleTests;
@@ -201,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7344D0FD1A3045870029EEF2 /* Main.storyboard in Resources */,
+				0C2689631A9DEC9E00C02FC4 /* Main.storyboard in Resources */,
 				7344D1021A3045870029EEF2 /* LaunchScreen.xib in Resources */,
 				7344D0FF1A3045870029EEF2 /* Images.xcassets in Resources */,
 			);
@@ -221,8 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7344D0FA1A3045870029EEF2 /* ViewController.m in Sources */,
+				0C2689651A9DEC9E00C02FC4 /* DOHomeViewController.m in Sources */,
 				7344D0F71A3045870029EEF2 /* AppDelegate.m in Sources */,
+				0C2689641A9DEC9E00C02FC4 /* DOViewController.m in Sources */,
 				7344D0F41A3045870029EEF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7344D10E1A3045870029EEF2 /* DevOpsSampleTests.m in Sources */,
+				0C2689671A9DECB500C02FC4 /* DevopsFinalProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7344D0FB1A3045870029EEF2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7344D0FC1A3045870029EEF2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7344D1001A3045870029EEF2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
